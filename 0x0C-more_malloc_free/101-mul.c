@@ -41,9 +41,6 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 	int g, h, mul, mulrem, add, addrem;
 
 	mulrem = addrem = 0;
-	int g, h, mul, mulrem, add, addrem;
-
-	mulrem = addrem = 0;
 	for (g = num_index, h = dest_index; g >= 0; g--, h--)
 	{
 		mul = (n - '0') * (num[g] - '0') + mulrem;
@@ -148,4 +145,3 @@ int main(int argc, char *argv[])
 	_print(b, fn - 1);
 	return (0);
 }
-
