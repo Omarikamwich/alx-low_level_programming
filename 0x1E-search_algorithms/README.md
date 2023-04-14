@@ -1,3 +1,1 @@
 # Search Algorithms
-ALL TASKS
-
